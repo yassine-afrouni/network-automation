@@ -1,0 +1,13 @@
+ip name-server 8.8.8.8
+ntp update-calendar
+clock timezone PST -8
+
+interface GigabitEthernet0/1
+ switchport trunk encapsulation dot1q
+ switchport mode trunk
+ switchport nonegotiate
+ media-type rj45
+ negotiation auto
+
+
+
