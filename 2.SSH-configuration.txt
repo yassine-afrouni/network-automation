@@ -1,0 +1,27 @@
+
+#this configuration is applied on evry switch and router we need to contole
+
+
+enable
+conf t
+
+hostname xxx
+
+enable pass ilovenetworking
+
+username nouhaila pass T@ngerusa98
+username nouhaila priv 15
+line vty 0 4
+login local
+transport input all
+ip domain-name tanger.com
+crypto key generate rsa
+1024
+
+
+int vlan 1
+no shut
+ip address 192.168.251.21 255.255.255.0
+
+end
+wr
