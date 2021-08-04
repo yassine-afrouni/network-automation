@@ -1,3 +1,9 @@
+#  NAS.py
+#  Network automation sys
+#
+#  Created by yassen on 5/6/20.
+#  Copyright © 2021 yassen & nouhaila. All rights reserved.
+
 
 from netmiko import ConnectHandler
 from netmiko.ssh_exception import NetMikoTimeoutException, AuthenticationException
@@ -473,7 +479,7 @@ if __name__ == "__main__":
         while True:
                 username = getpass.getpass(prompt='Username: ')
                 password = getpass.getpass(prompt='Password: ')
-                if username.lower() == 'nouhaila'and password =='T@ngerusa98':
+                if username.lower() == 'nouhaila'and password =='ilovenetworking':
                         break
                 else: 
                         print('The answer entered by you is incorrect..!!!') 
