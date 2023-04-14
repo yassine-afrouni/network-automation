@@ -31,8 +31,8 @@ def ssh_connection(device):
         'device_type':'cisco_ios',
         'ip':device[0],
         'host':device[1],
-        'username': 'nouhaila',
-        'password': 'T@ngerusa98'
+        'username': 'LANLord',
+        'password': 'GumoGumoNo'
         }
         try:
                 connection = ConnectHandler(**info_device)
@@ -479,7 +479,7 @@ if __name__ == "__main__":
         while True:
                 username = getpass.getpass(prompt='Username: ')
                 password = getpass.getpass(prompt='Password: ')
-                if username.lower() == 'nouhaila'and password =='ilovenetworking':
+                if username.lower() == 'Akatsuki'and password =='Rasengan':
                         break
                 else: 
                         print('The answer entered by you is incorrect..!!!') 
