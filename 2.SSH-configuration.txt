@@ -9,8 +9,8 @@ hostname xxx
 
 enable pass ilovenetworking
 
-username nouhaila pass T@ngerusa98
-username nouhaila priv 15
+username LANLord pass GumGumPistol
+username LANLord priv 15
 line vty 0 4
 login local
 transport input all
