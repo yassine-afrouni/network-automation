@@ -9,7 +9,7 @@ hostname xxx
 
 enable pass ilovenetworking
 
-username LANLord pass GumGumPistol
+username LANLord pass GumoGumoNo
 username LANLord priv 15
 line vty 0 4
 login local
